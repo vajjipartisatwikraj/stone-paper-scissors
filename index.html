@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StonePaperScissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            Play Stone, Paper and scissors
+        </div>
+    </header>
+    <div id="container">
+        <div class="itemscontainer">
+            <div class="item" id="stone">
+                <a><img src="stone.png" height="130px"></a>
+            </div>
+            <div class="item" id="paper">
+                <a><img src="paper.png" height="100px"></a>
+            </div>
+            <div class="item" id="scissors">
+                <a><img src="scissors.png" height="90px"></a>
+            </div>
+        </div>
+        <div id="scorecontainer">
+            <div id="score">
+                <div>
+                    <p style="font-size: 20px;">You</p>
+                </div>
+                <div>
+                    <p id="userscore">0</p>
+                </div>
+            </div>
+            <div id="score">
+                <div>
+                    <p style="font-size: 20px;">Comp</p>
+                </div>
+                <div>
+                    <p id="computerscore">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="commandcontainer">
+            <div id="command">
+                <p id="msg">Your Turn</p>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
